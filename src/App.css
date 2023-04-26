@@ -1,0 +1,73 @@
+.title {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.players {
+  width: 25%;
+  padding-right: 50px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  background: white;
+  border: 3px solid #999;
+  float: left;
+  font-size: 75px;
+  line-height: 50px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  width: 100px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+}
+
+.game-info {
+  width: 25%;
+  padding-left: 30px;
+}
+
+.leaderboard {
+  margin-top: 50px;
+}
+
+.lbrowheader {
+  text-align: left;
+}
+
+.lbrowname {
+  width: 75%;
+  text-align: left;
+}
+
+.lbrowscore {
+  width: 25%;
+  text-align: left;
+}
+
+.lbrowdata {
+  font-size: 15px;
+}
+
+.error {
+  font-size: 15px;
+  color: red;
+}
